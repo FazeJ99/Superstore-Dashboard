@@ -15,7 +15,7 @@ chartRow = st.container()
 footer = st.container()
 
 # Load the data
-superSales = pd.read_csv('data/superSales.csv')
+superSales = pd.read_csv('https://raw.githubusercontent.com/FazeJ99/Superstore-Dashboard/refs/heads/main/superSales.csv')
 
 # CSS styles
 # Custom styling for top and down
